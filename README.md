@@ -1,6 +1,7 @@
 # VoteableArthur
 
-TODO: Tealeaf Homework
+Tealeaf Homework
+Voteable Module
 
 ## Installation
 
@@ -18,7 +19,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This Module can create the association polymorphic with voteable and vote table
+
+In your class add
+`include VoteableArthur`
+
+And you can get Votes using
+```
+post.votes
+post.total_votes
+```
+
 
 ## Contributing
 
